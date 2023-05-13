@@ -52,7 +52,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   //   ),
                   // ),
                   Text(
-                    'Exiting the dark age\nof the toxic internet\nengagement algorithm',
+                    'Just wait and do not Scroll, this means Stop Scrolling!',
                     style: textTheme.bodyLarge!.copyWith(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
@@ -60,19 +60,19 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     ),
                     textAlign: TextAlign.center,
                   ),
-                  height10,
-                  Text(
-                    'The first app with the goal\nto inspire you to get off of it via a\ncollective search for the most\ninspiring and empowering videos',
-                    textAlign: TextAlign.center,
-                    style: textTheme.bodySmall!.copyWith(color: primaryWhite),
-                  ),
+                  // height10,
+                  // Text(
+                  //   'The first app with the goal\nto inspire you to get off of it via a\ncollective search for the most\ninspiring and empowering videos',
+                  //   textAlign: TextAlign.center,
+                  //   style: textTheme.bodySmall!.copyWith(color: primaryWhite),
+                  // ),
                 ],
               ),
             ),
             Expanded(
               child: Center(
                 child: PrimaryTextButton(
-                  title: 'Get Whitepilled',
+                  title: 'Get Started',
                   onPressed: () {
                     dataStorage.write("isWelcome", true);
                     Get.offAll(() => MainHomeScreen());

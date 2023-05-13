@@ -74,8 +74,8 @@ ThemeData lightTheme = ThemeData(
 //   'white': Colors.white
 // };
 
-const Color appColor = Color.fromRGBO(43, 75, 147, 1); //F1334E
-const Color purpleColor = Color.fromRGBO(43, 75, 147, 1);
+const Color appColor = Color.fromRGBO(196, 66, 38, 1); //F1334E
+const Color purpleColor = Color.fromRGBO(196, 66, 38, 1);
 const Color blueColor = Colors.white; //F1334E
 const Color offWhite = Color(0xffF8F8F8);
 const Color whiteColor = Color(0xffFFFFFF);

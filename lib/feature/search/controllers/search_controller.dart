@@ -144,7 +144,7 @@ class SearchController extends GetxController {
 
   getSubverseInfo(context) async {
     final response =
-        await networkRepository.getSphereInfo(context: context, id: '123');
+        await networkRepository.getSphereInfo(context: context, id: '130');
     if (response != null /* && response["posts"].isNotEmpty */) {
       subverseName = response["name"];
       subverseCount = response["count"];
@@ -167,7 +167,7 @@ class SearchController extends GetxController {
     }
     final response = await networkRepository.getSpherePosts(
       context: context,
-      id: '123',
+      id: '130',
       page: '1',
     );
     if (response != null /* && response["posts"].isNotEmpty */) {

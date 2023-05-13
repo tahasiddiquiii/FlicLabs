@@ -38,7 +38,7 @@ class HomeController extends GetxController {
     try {
       final response = await networkRepository.getSpherePosts(
         context: context,
-        id: "123",
+        id: "130",
         page: '1',
       );
       if (response != null) {

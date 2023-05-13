@@ -11,7 +11,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Whitepill</string>
+	<string>Stopscrolling</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -19,7 +19,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>whitepill</string>
+	<string>stopscrolling</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,11 +45,11 @@
 		<string>_dartobservatory._tcp</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>Whitepill by Socialverse will like to have access to your camera for recording and posting videos</string>
+	<string>StopScrolling by Socialverse will like to have access to your camera for recording and posting videos</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Whitepill by Socialverse will like to have access to your microphone for recording audio in videos</string>
+	<string>StopScrolling by Socialverse will like to have access to your microphone for recording audio in videos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Whitepill by Socialverse will like to have access to your photo library for profile photo upload</string>
+	<string>StopScrolling by Socialverse will like to have access to your photo library for profile photo upload</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
